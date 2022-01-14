@@ -1,0 +1,218 @@
+body{
+font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+margin:0;
+padding:0;
+background-color: rgb(255, 255, 240);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: rgb(47,79,79);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color:black;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color:#A9A9A9;
+  color: white;
+}
+
+.profile{
+	margin-left:15%;
+	height:595px;
+	background-color:#add8e6;
+	padding:10px;
+}
+
+.displaypicture{
+	margin-left:20px;
+	height:200px;
+	width:200px;
+	background:red;
+	margin-top:20px;
+}
+
+.details{
+	height:280px;
+	width:450px;
+	background:white;
+	border-radius:10px;
+	padding:10px;
+	margin:10px;
+}
+
+.admininfo{
+	margin-left:510px;
+	width:500px;
+	height:550px;
+	margin-top:-580px;
+	background:white;
+	border-radius:10px;
+	padding:10px;
+}
+
+.adminchange{
+	margin-left:175px;
+	height:35px;
+	width:100px;
+	background:rgb(93, 152, 192);
+	border:none;
+}
+
+.editdetails{
+	margin-left:200px;
+	height:35px;
+	width:100px;
+	background:rgb(93, 152, 192);
+	border:none;
+}
+
+.logout{
+	margin-left:370px;
+	height:35px;
+	width:100px;
+	border-radius:2px;
+	background:red;
+	border:none;
+	cursor: pointer;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+	display: none;
+	position: fixed;
+	bottom: 5px;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	border-radius:10px;
+	z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+	border-radius:10px;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=email] {
+	width: 90%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	border-radius:10px;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=email]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+	border-radius:10px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+	background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+  }
+
+  /* Styling change detail popup */
+
+  .form-popup1 {
+	display: none;
+	position: fixed;
+	bottom: 5px;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	border-radius:10px;
+	z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container1 {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+	border-radius:10px;
+  }
+  
+  /* Full-width input fields */
+  .form-container1 input[type=text], .form-container1 input[type=email],  .form-container1 input[type=number]{
+	width: 90%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	border-radius:10px;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container1 input[type=text]:focus, .form-container1 input[type=email]:focus, .form-container1 input[type=number]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container1 .btn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+	border-radius:10px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container1 .cancel {
+	background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container1 .btn:hover, .open-button:hover {
+	opacity: 1;
+  }
+
+  .img_uploads{
+	height: 30px;
+	width: 200px;
+	color: black;
+	margin-left: 220px;
+}

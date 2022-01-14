@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.signinbox{
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    margin-left: 450px;
+    margin-top: 80px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input1{
+    height: 30px;
+    margin-left: 25px;
+    width: 350px;
+    margin-top: -100px;
+    border: none;
+    border-radius: 3px;
+}
+
+.input2{
+    height: 30px;
+    margin-left: 25px;
+    width: 350px;
+    margin-top: -100px;
+    border: none;
+    border-radius: 3px;
+}
+
+.signin_btn{
+    height: 30px;
+    width: 60px;
+    margin-left: 320px;
+    margin-top: 20px;
+    border:none;
+    border-radius: 5px;
+}

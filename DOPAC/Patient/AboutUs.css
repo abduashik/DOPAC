@@ -1,0 +1,181 @@
+body{
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin:0;
+    padding:0;
+    }
+    /*Title bar design*/
+    .titlebar{
+        width:100%;
+        height:40px;
+        background-color:white;
+        margin:0;
+        padding:0;
+    }
+    /*Search bar*/
+    .titlebar input[type=text] {
+      padding: 6px;
+      border: none;
+      margin-top: 5px;
+      margin-left: 920px;
+      font-size: 14px;
+      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    /*Search button*/
+    .titlebar input[type=submit] {
+      float: right;
+      height:29px;
+      margin-top:5px;
+      margin-right:17px;
+      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      /*Navigation bar*/
+    .navbar{
+      background-color: #333;
+      overflow:hidden;
+    }
+    /*Navigation bar Links*/
+    .navbar a {
+      display: inline;
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .navbar a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .signinbtn {
+        margin-left:750px;
+        margin-right:5px;
+        margin-top:5px;
+        height:10px;
+        float:right;
+        background-color: black;
+        text-decoration:none;
+        font-weight:bold;
+        border-radius:5px;
+        cursor:pointer;
+    }
+    
+    .signupbtn {
+        margin-top:5px;
+        height:10px;
+        float:right;
+        background-color: black;
+        padding: 8px 20px;
+        text-decoration:none;
+        font-weight:bold;
+        border-radius:5px;
+        cursor:pointer;
+        color: white;
+    }
+    
+    /* Dropdown Button */
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px;
+      font-size: 12px;
+      border: none;
+      border-radius:12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: relative;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    
+    .tophospitals{
+        display: inline-block;
+          width:100%;
+          height:370px;
+          background-color:#ffff;
+      
+      }
+
+    .hospital1{
+          float: left;
+          height:200px;
+          width:200px;
+          background-color:rgb(3, 12, 94);
+          color: white;
+          box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius:20px;
+          margin-left:45px;
+          margin-bottom: 20px;
+      }
+    
+   
+    
+    .footer{
+        width:100%;
+        height:200px;
+        background-color:black;
+        /* position:relative; */
+        padding:5px;
+    }
+    .footer h1{
+        margin-left:10px;
+        color:white;
+    }
+    
+    .footer p{
+        margin-top:-30px;
+        margin-left:10px;
+        color:white;
+    }
+    
+    .footer a{
+        text-decoration:none;
+    }
+    
+    #complaint{
+        margin-top:10px;
+        font-size:20px;
+    }
+    
+    #adminreg{
+       margin-top:20px;
+       font-size:30px;
+    }
+    

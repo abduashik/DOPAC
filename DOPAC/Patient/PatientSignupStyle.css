@@ -1,0 +1,119 @@
+body
+{
+font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+margin:0px;
+background:url("signinbg.jpg");
+}
+
+
+.signupbox{
+	height:600px;
+	width:800px;
+	background-color:white;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:0 auto;
+	position:absolute;
+	top:8px;
+	left:250px;
+	bottom:100px;
+	border-radius:20px;
+	color:white;
+	background:url("star.jpg");
+}
+
+.signupbox h1{
+	margin-left:20px;
+	margin-top:15px;
+	font-size:60px;
+}
+
+.name input[type=text]{
+	width:300px;
+	height:40px;
+	border-radius:4px;
+	margin-top:-15px;
+	margin-left:40px;
+	border:none;
+	background-color: #f1f1f1;
+	z-index:1000;
+}
+
+.cnum input[type=number]{
+	width:300px;
+	height:40px;
+	border-radius:4px;
+	margin-top:-10px;
+	margin-left:40px;
+	border:none;
+	background-color: #f1f1f1;
+}
+ 
+
+.age input[type=number]{
+	width:50px;
+	height:40px;
+	border-radius:4px;
+	margin-top:-15px;
+	margin-left:410px;
+	border:none;
+	background-color: #f1f1f1;
+}
+
+
+.address textarea{
+	width:300px;
+	height:200px;
+	border-radius:4px;
+	margin-top:-15px;
+	margin-left:40px;
+	border:none;
+	background-color: #f1f1f1;
+}
+
+.email input[type=email]{
+	width:300px;
+	height:40px;
+	border-radius:4px;
+	margin-top:-480px;
+	margin-left:410px;
+	border:none;
+	background-color: #f1f1f1;
+}
+
+.gender{
+	margin-left:570px;
+}
+
+.gender input[type=radio]{
+	margin-left:-500;
+	margin-top:-15px;
+}
+
+.pswrd input[type=password]{
+	width:300px;
+	height:40px;
+	border-radius:4px;
+	margin-top:-15px;
+	margin-left:410px;
+	border:none;
+	background-color: #f1f1f1;
+}
+
+.repswrd input[type=password]{
+	width:300px;
+	height:40px;
+	border-radius:4px;
+	margin-top:-15px;
+	margin-left:410px;
+	border:none;
+	background-color: #f1f1f1;
+}
+
+.signupbox input[type=submit]{
+	width:90px;
+	height:40px;
+	border-radius:15px;
+	margin-left:620px;
+	margin-top:30px;
+}
+

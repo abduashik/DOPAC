@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.titlebar{
+    height:50px;
+    width:100%;
+    background-color:rgb(80, 170, 197);
+}
+
+.titlebar a {
+    display: inline;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .titlebar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .titlebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .t1doc{
+    margin-left:20px;
+	margin-top:5px;
+	width:90%;
+	height:120px;
+	background-color:grey;
+	color:white;
+	font-size:40px;
+	border-radius:5px;
+}
